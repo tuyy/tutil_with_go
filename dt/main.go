@@ -78,7 +78,7 @@ func process(base string, op int) {
 func main() {
 	args := os.Args
 	if len(args) == 1 || len(args) > 3 {
-		panic("dt 20190524 +1(일단위)")
+		panic("dt {20190524 or 20190524093050 or 1590246000} (optional){+1}")
 	}
 
 	if len(args) == 3 {
